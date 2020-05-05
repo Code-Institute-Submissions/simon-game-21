@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simongame</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <audio id="clip1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
+        </source>
+    </audio>
+    <audio id="clip2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
+        </source>
+    </audio>
+    <audio id="clip3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
+        </source>
+    </audio>
+    <audio id="clip4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+        </source>
+    </audio>
+</head>
+
+<body>
+    <!------------------------------------------------------- Text-Guid-->
+    <div id="text-guid">
+        <h1>How To Play</h3>
+            <ol>
+                <li>Click on the ON/OFF checkbox to ON. If you like to play on hard mode you can click on HARD
+                    checkbox,otherwise the game will be normal</li>
+                <li>Press the START button. Simon will give the first signal. Repeat the signal by pressing the same
+                    color lens.</li>
+                <li>Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same
+                    color lenses, in order.</li>
+                <li>Simon will duplicate these first two signals and add one.</li>
+                <li>Continue playing as long as you can repeat each sequence of sig- nals correctly.</li>
+                <li>If you fail to repeat a sequence exactly, or if you take more than 5 seconds to repeat a signal,
+                    Simon responds with a "RAZZ" sound. This means you've lost, and the sequence of signals ends.</li>
+            </ol>
+    </div>
+    <!----------------------------------------------------------- Big-Box -->
+    <div id="big-box">
+        <div id="red-pad" class="pads"></div>
+        <div id="yellow-pad" class="pads"></div>
+        <div id="green-pad" class="pads"></div>
+        <div id="blue-pad" class="pads"></div>
+        <!------------------------------------------------------- Small-Box-->
+        <div id="small-box">
+            <div id="switches">
+                <input type="checkbox">
+                <input type="checkbox">
+                <span>Power</span><span class="hard">Hard</span>
+            </div>
+            <div id="start-display">
+                <button>Start</button>
+                <div id="display"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
