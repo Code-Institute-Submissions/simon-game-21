@@ -63,7 +63,7 @@ body {
     margin: 0 auto;
   }
 
-  input {
+  #power, #mode {
     margin-left: 50px;
     margin-top: 30px;
   }
@@ -122,3 +122,121 @@ body {
     margin-top: 10px;
   }
   
+  @media screen and (max-width: 450px) {
+    #big-box {
+      height: 300px;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      position: relative;
+    }
+
+    .pads {
+      height: 150px;
+      width: 150px;
+      border: 5px solid black;
+      box-sizing: border-box;
+      border-radius: 25%;
+      position: absolute;
+    }
+  
+    #red-pad {
+      background-color: #7b0000;
+    }
+  
+    #yellow-pad {
+      left: 150px;
+      background-color: #c5c503;
+    }
+  
+    #green-pad {
+      top: 150px;
+      background-color: #005600;
+    }
+  
+    #blue-pad {
+      top: 150px;
+      left: 150px;
+      background-color: #00006b;
+    }
+
+/*------------------------------------------------------- Small-Box*/
+    #small-box {
+      height: 100px;
+      width: 100px;
+      border: 5px solid black;
+      top: 100px;
+      left: 100px;
+      position: absolute;
+      box-sizing: border-box;
+      background-color: #9c9c9c;
+      border-radius: 25%;
+    }
+
+    #switches {
+      height: 30px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    #power, #mode {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+  
+    span {
+      margin-left: 10px;
+      font-size: small;
+    }
+  
+    .hard {
+      margin-left: 15px;
+    }
+  
+    #start-display {
+      position: relative;
+    }
+  
+    #start {
+      height: 17.5px;
+      width: 36px;
+      margin-top: 35px;
+      margin-left: 5px;
+      border-radius: 5px;
+      font-family: "Bangers", sans-serif;
+      font-weight: 300;
+      font-size: x-small;
+      text-align: center;
+      position: absolute;
+      background-color: #868686;
+    }
+    
+    #display {
+      height: 17.5px;
+      width: 36px;
+      margin-left: 50px;
+      margin-top: 35px;
+      position: absolute;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #350000;
+      color: red;
+    }
+
+    #text-guid {
+      width: 350px;
+      margin: 0 auto;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      letter-spacing: 2px;
+    }
+  
+    #text-guid ol {
+      font-size: 150%;
+    }
+  
+    li {
+      margin-top: 10px;
+    }
+  }
