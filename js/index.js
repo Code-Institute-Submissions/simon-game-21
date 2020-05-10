@@ -20,7 +20,7 @@ const powerButton = document.querySelector("#power");
 const startButton = document.querySelector("#start");
 
 modeButton.addEventListener('click', (event) => {
-  if (modeButton.checked == true) {
+  if (modeButton.checked === true) {
     mode = true;
   } else {
     mode = false;
@@ -28,7 +28,7 @@ modeButton.addEventListener('click', (event) => {
 });
 
 powerButton.addEventListener('click', (event) => {
-  if (powerButton.checked == true) {
+  if (powerButton.checked === true) {
     power = true;
     display.innerHTML = "-";
   } else {
@@ -86,7 +86,7 @@ function gameTurn() {
 
 function one() {
   if (noise) {
-    let audio = document.getElementById("clip1");
+    let audio = document.getElementById("sound1");
     audio.play();
   }
   noise = true;
@@ -95,7 +95,7 @@ function one() {
 
 function two() {
   if (noise) {
-    let audio = document.getElementById("clip2");
+    let audio = document.getElementById("sound2");
     audio.play();
   }
   noise = true;
@@ -104,7 +104,7 @@ function two() {
 
 function three() {
   if (noise) {
-    let audio = document.getElementById("clip3");
+    let audio = document.getElementById("sound3");
     audio.play();
   }
   noise = true;
@@ -113,7 +113,7 @@ function three() {
 
 function four() {
   if (noise) {
-    let audio = document.getElementById("clip4");
+    let audio = document.getElementById("sound4");
     audio.play();
   }
   noise = true;
@@ -139,7 +139,7 @@ redPad.addEventListener('click', (event) => {
     playerOrder.push(1);
     check();
     one();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -152,7 +152,7 @@ yellowPad.addEventListener('click', (event) => {
     playerOrder.push(2);
     check();
     two();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -165,7 +165,7 @@ greenPad.addEventListener('click', (event) => {
     playerOrder.push(3);
     check();
     three();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -178,7 +178,7 @@ bluePad.addEventListener('click', (event) => {
     playerOrder.push(4);
     check();
     four();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -196,7 +196,7 @@ function check() {
 
   if (good == false) {
     flashColor();
-    display.innerHTML = "NO!";
+    display.innerHTML = "Lost";
     setTimeout(() => {
       display.innerHTML = turn;
       clearColor();
