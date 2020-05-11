@@ -4,6 +4,7 @@ body {
   font-family: "Bangers", sans-serif;
   font-weight: 300;
   background-image: url("../image/cork-board.png");
+  padding: 0;
   }
 
 /*------------------------------------------------------- Big-Box*/  
@@ -13,6 +14,7 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
+    float: left;
     position: relative;
   }
 
@@ -113,6 +115,7 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
     letter-spacing: 2px;
+    float: left;
   }
 
   #text-guid ol {
@@ -130,6 +133,7 @@ body {
       margin: 0 auto;
       margin-top: 100px;
       margin-bottom: 100px;
+      float: left;
       position: relative;
     }
 
@@ -232,6 +236,7 @@ body {
       margin-top: 80px;
       margin-bottom: 80px;
       letter-spacing: 2px;
+      float: left;
     }
   
     #text-guid ol {
