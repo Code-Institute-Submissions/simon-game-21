@@ -1,14 +1,14 @@
-let order = [];
-let playerOrder = [];
-let flash;
-let turn;
-let good;
-let compTurn;
-let intervalId;
-let mode = false;
-let noise = true;
-let power = false;
-let win;
+var order = [];
+var playerOrder = [];
+var flash;
+var turn;
+var good;
+var compTurn;
+var intervalId;
+var mode = false;
+var noise = true;
+var power = false;
+var win;
 
 const display = document.querySelector("#display");
 const redPad = document.querySelector("#red-pad");
@@ -86,7 +86,7 @@ function gameTurn() {
 
 function one() {
   if (noise) {
-    let audio = document.getElementById("sound1");
+    var audio = document.getElementById("sound1");
     audio.play();
   }
   noise = true;
@@ -95,7 +95,7 @@ function one() {
 
 function two() {
   if (noise) {
-    let audio = document.getElementById("sound2");
+    var audio = document.getElementById("sound2");
     audio.play();
   }
   noise = true;
@@ -104,7 +104,7 @@ function two() {
 
 function three() {
   if (noise) {
-    let audio = document.getElementById("sound3");
+    var audio = document.getElementById("sound3");
     audio.play();
   }
   noise = true;
@@ -113,7 +113,7 @@ function three() {
 
 function four() {
   if (noise) {
-    let audio = document.getElementById("sound4");
+    var audio = document.getElementById("sound4");
     audio.play();
   }
   noise = true;
