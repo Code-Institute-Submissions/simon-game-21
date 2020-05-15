@@ -1,15 +1,18 @@
 # Simon-Game
 
-This project is about an old game which is called "SimonGame". It is a memory game and really fun to play with friends.
+This project is about an old game which is called "SimonGame". It is a memory game and it is really fun to play solo and with friends.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This game designed as simple as possible so that everyone will be able to learn and play it. It is an one page website so users have access to all the content that they need.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+- As an user/player, I need to know how the game works and what is my goal in this game.
+- As an user/player, I want to be able to turn the game ON and OFF at any time.
+- As an user/player, I want to be able to challenge myself by changing the mode of the game from normal to hard.
+- As an user/player, I want the game starts with my permission. I rather have a count down after turning the game on or have access to a button to start the game.
+- As an user/player, I want to know which level/round I am and get informed if I Win or Lose.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+To design this game and website, I used Adobe XD to see how my final website must look like and then by HTML, CSS and Javascript I made it live and functional for users. To download and see the UX design please click (here)[https://github.com/IIxShahinxII/simon-game/blob/master/UX%20design/simon-game.xd]
 
 ## Features
  
@@ -17,7 +20,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - Guide : Explains for users that how they can play.
 - ON/OFF checkbox : allows users to turn the game ON and OFF.
 - Hard checkbox : allows users to change the game mode from easy to difficult mode.
-- Start button : allows users to be able to start the game. (users must turn on the game and see the lightRed "-" on display then the they can click to start the game.)
+- Start button : allows users to be able to start the game. (users must turn on the game and see the lightRed "-" on    display then the they can click to start the game.)
 - Display : allows users to see the game is ON or OFF and also their current round in the game.
 
 ### Features Left to Implement
