@@ -12,7 +12,7 @@ This game designed as simple as possible so that everyone will be able to learn 
 - As an user/player, I want the game starts with my permission. I rather have a count down after turning the game on or have access to a button to start the game.
 - As an user/player, I want to know which level/round I am and get informed if I Win or Lose.
 
-To design this game and website, I used Adobe XD to see how my final website must look like and then by HTML, CSS and Javascript I made it live and functional for users. To download and see the UX design please click (here)[https://github.com/IIxShahinxII/simon-game/blob/master/UX%20design/simon-game.xd]
+To design this game and website, I used Adobe XD to see how my final website must look like and then by HTML, CSS and Javascript I made it live and functional for users. To download and see the UX design please go (here)[https://github.com/IIxShahinxII/simon-game/blob/master/UX%20design/simon-game.xd] and then click on "View raw"
 
 ## Features
  
