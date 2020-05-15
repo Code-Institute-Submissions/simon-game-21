@@ -109,16 +109,16 @@ body {
   }
 
 /*------------------------------------------------------- Text-Guid*/
-  #text-guid {
+  #text-guide {
     width: 500px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 80px;
     letter-spacing: 2px;
     float: left;
   }
 
-  #text-guid ol {
+  #text-guide ol {
     font-size: 150%;
   }
 
@@ -230,7 +230,7 @@ body {
     }
 
 /*------------------------------------------------------- Text-Guid*/
-    #text-guid {
+    #text-guide {
       width: 350px;
       margin: 0 auto;
       margin-top: 80px;
@@ -239,7 +239,7 @@ body {
       float: left;
     }
   
-    #text-guid ol {
+    #text-guide ol {
       font-size: 150%;
     }
   
